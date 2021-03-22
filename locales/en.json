@@ -1,0 +1,145 @@
+{
+  "job_title": "Fullstack Developer",
+  "items": {
+    "about_me": "About me",
+    "experience": "Experiences",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "who_i_am": "Who I am ?",
+  "who_i_am_desc": "I'm a computer science student at {EPITECH.} because I like programming, innovation and create things.\n\nI'm looking for an internship for 4 months starting 1er avril 2021.\n\nWhen I received my first computer, I wanted to know how software, video games and computers were created.\n\nCurious, I'm always looking news about robotic, programming and video games.\nMy goal is to combine work and passion.\n\nAutonomous, motivated and effective, I'm looking to join a company or work as freelance to get some experiences and learn new technologies.",
+  "location": "Location",
+  "educations_title": "Education",
+  "educations": [
+    {
+      "school": "EPITECH",
+      "years": "2018-2023",
+      "title": "Title of Expert in Computer and Information Technologies"
+    },
+    {
+      "school": "EIC",
+      "years": "2016-2018",
+      "title": "Bachelor STI2D"
+    }
+  ],
+  "passions_title": "Hobbies",
+  "passions": ["Boxing", "Motorcycle", "Computer Science", "Workout", "DIY", "Video games"],
+  "xp_title": "Experiences",
+  "xp": [
+    {
+      "company": "EPITECH",
+      "dates": "Janv. 2020 à aujourd'hui",
+      "job": "Pedagogical Assistant",
+      "desc": "Pedagogical Assistant for the 1st and 2nd years (supervision of activities, rating of students projects, supervisory of students...)"
+    },
+    {
+      "company": "Junior Conseil Taker",
+      "dates": "Sept. 2019 à Juin 2020",
+      "job": "Project Manager",
+      "desc": "Démarchage, gestion et accompagnement de projets auprès de différents clients."
+    },
+    {
+      "company": "CAUE du Nord",
+      "dates": "Aug. 2019 à Dec. 2019",
+      "job": "Front-End Developer",
+      "desc": "Development of a CMS thanks to Vue.js, Nuxt.js and Vuetify"
+    },
+    {
+      "company": "M-P-F",
+      "dates": "July 2018 to Sept 2018",
+      "job": "Joiner",
+      "desc": "Summer job - Joinery help"
+    }
+  ],
+  "skills_title": "Skills",
+  "skills": [
+    { "skills": [
+      { "title":  "Vue.js", "icon": "vuejs.png"},
+      { "title":  "Node.js", "icon": "nodejs.png"},
+      { "title":  "Express.js", "icon": "javascript.png"},
+      { "title":  "JavaScript", "icon": "javascript.png"},
+      { "title":  "jQuery", "icon": "jquery.png"}
+    ]},
+    { "skills": [
+      { "title":  "C", "icon": "c.png"},
+      { "title":  "C#", "icon": "c-sharp.png"},
+      { "title":  "C++", "icon": "cpp.png"},
+      { "title":  "LUA", "icon": "lua.png"},
+      { "title":  "React Native", "icon": "react.png"}
+    ]},
+    { "skills": [
+      { "title":  "Unity Engine", "icon": "unity.png"},
+      { "title":  "MySQL", "icon": "mysql.png"},
+      { "title":  "HTML/CSS", "icon": "html.png"},
+      { "title":  "Unix", "icon": "unix.png"},
+      { "title":  "TOEIC equivalent: 805", "icon": "toeic.png"}
+    ]}
+  ],
+  "freelance_mission": "Freelance mission",
+  "portfolio_title": "Portfolio",
+  "portfolio_details": "Project details",
+  "portfolio_seemore": "See more",
+  "portfolio_open_link": "Open link",
+  "portfolio_close": "Close",
+  "projects": [
+    { "title":  "M-P-F", "mission": "Website for a joinery",
+      "freelance": true,
+      "link": "http://menuiserie-wasquehal.fr",
+      "desc": "A showcase site for a joinery using Bootstrap, Javascript and HTML/CSS.",
+      "img": "mpf.png" },
+    { "title":  "Dashboard", "mission": "Epitech project",
+      "desc": "Dashboard with some services and widgets (JavaScript / Materialize with an API Flask).",
+      "img": "project.png" },
+    { "title":  "AREA", "mission": "Epitech project",
+      "desc": "An API (with Node.js), a mobile application (with React.js) and a web application (with Vue.js) with actions triggering reactions depends on what the user wants.",
+      "img": "project.png" },
+    { "title":  "Dirty City", "mission": "Personal project",
+      "link": "https://www.youtube.com/watch?v=GLxLEDwtviI",
+      "desc": "A video game created for Android using Unity (C#).\nThe goal is to be the biggest ball in just 1 minute.\n\nAvailable on Play Store.",
+      "img": "dirty_city.png" },
+    { "title":  "Handy Screenshot", "mission": "Personal project",
+      "desc": "Windows snipping tool like created using Visual Studio and C#.\nYou just have to take a screenshot and then you can edit it or send it to your friends.\nThe goal of this project is to be very handy.",
+      "img": "handy_screenshot.png" },
+    { "title":  "Syntek", "mission": "Personal project",
+      "link": "https://chrome.google.com/webstore/detail/syntek/enafhfdfnfbmhafbbfekhlehkdaedime",
+      "desc": "Chrome & Firefox extension in the way to help Epitech's students with their lessons calendar, using JavaScript and HTML/CSS.\nWith this extension, you can check your Epitech Planning from anywhere with a little icon in the top bar and whenever you open a new tab, you'll see your next events so you can never miss them!\n\nFurthermore, you'll be alerted when an event has almost started.",
+      "img": "syntek.png" },
+    { "title":  "MW Soundbox", "mission": "Personal project",
+      "desc": "Little application created for Android using Unity (C#).\nIt's basically just a sound box. I challenged myself to do it in 48 hours.",
+      "img": "boite.png" },
+    { "title":  "Portfolio", "mission": "Personal website",
+      "desc": "This current website, using NuxtJS, VueJS and Vuetify.",
+      "img": "cv.png" },
+    { "title":  "Portfolio", "mission": "Personal website",
+      "desc": "My old portfolio using Bootstrap, Javascript and HTML/CSS.",
+      "img": "cv.png" },
+    { "title":  "Flappy Bird", "mission": "Personal project",
+      "desc": "Remake of 'Flappy Bird' the game with CSFML (in C) for 1 day.\nI wanted to challenge myself in an afternoon, so I take a graphic pack of Flappy Bird and did a remake of it in C. The pipe height is random and the map is customisable.",
+      "img": "flappy_bird.png" },
+    { "title":  "My Hunter", "mission": "Epitech project",
+      "desc": "Remake of 'Dunk Hunt' the game with CSFML (in C) for 21 days.\nWe were free to use any graphic style.\nThe rules were just to display a sprite which moving, with a score and some collisions when we shot at a monster.",
+      "img": "my_hunter.png" },
+    { "title":  "My Runner", "mission": "Epitech project",
+      "desc": "It's a 'Runner Game' style game with CSFML (in C) for 42 days.\nWe were free to use any graphic style.\nThe rules were to display a sprite which moving, with a score, some collisions and the handling of an external map. (a text file which represents the map)",
+      "img": "my_runner.png" },
+    { "title":  "42sh", "mission": "Epitech project",
+      "desc": "The goal of this project is to recreate 'Tcsh', a Linux shell.\nWe have to handle all the basic commands, environment commands, pipes, redirections, history...",
+      "img": "tcsh.png" },
+    { "title":  "Multi Theft Auto", "mission": "Scripts for servers",
+      "freelance": true,
+      "link": "https://www.youtube.com/playlist?list=PLcX5XBPSkEU2dn2iLzzEuhQXlBQH2Tteg",
+      "desc": "Servers on MTA SA were hiring me to develop some scripts.\nAll these are on my YouTube channel.",
+      "img": "mtasa.png" },
+    { "title":  "Blindead Cell", "mission": "Unity game",
+      "freelance": true,
+      "desc": "I was hired by a company to make some systems for their game 'Blindead Cell' in Unity using C#.",
+      "img": "blindead_cell.png" }
+  ],
+  "contact_title": "Contact",
+  "contact_email": "Send me an email !",
+  "contact_subject": "Subject",
+  "contact_body": "Body",
+  "contact_submit": "Submit",
+  "cv_download": "Download my CV"
+}
