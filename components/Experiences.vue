@@ -5,9 +5,11 @@
       <v-timeline-item v-for="(item, index) in $t('xp')" :key="index">
         <span slot="opposite">{{ item.dates }}</span>
         <v-card class="elevation-2">
-          <v-card-title class="headline" style="word-break: break-word;">{{ item.job }}</v-card-title>
-          <v-card-text style="word-break: break-word; text-align: justify;"> {{
-          item.desc }}
+          <div style="display: flex; justify-content: space-between" :style="'flex-direction:' + ($vuetify.breakpoint.mdAndDown ? 'column' : 'row')">
+            <v-card-title class="headline" style="word-break: break-word;">{{ item.job }}</v-card-title>
+            <v-card-title class="subtitle-1 py-0" style="word-break: break-word;">{{ item.company }}</v-card-title>
+          </div>
+          <v-card-text style="word-break: break-word; text-align: justify;" v-html="item.desc">
           </v-card-text>
         </v-card>
         <span v-if="$vuetify.breakpoint.smAndDown">{{ item.dates }}</span>

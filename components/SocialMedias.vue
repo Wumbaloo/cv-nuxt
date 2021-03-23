@@ -13,7 +13,8 @@
       return {
         social: [
           { icon: 'mdi-github', link: 'https://github.com/wumbaloo/' },
-          { icon: 'mdi-linkedin', link: 'https://www.linkedin.com/in/william-gaudfrin-1a454a163/' },
+          { icon: 'mdi-controller-classic', link: 'https://wumbaloo.itch.io/' },
+          { icon: 'mdi-linkedin', link: 'https://www.linkedin.com/in/william-gaudfrin/' },
           { icon: 'mdi-youtube', link: 'https://www.youtube.com/user/WilliamHDFull/videos/' }
         ]
       }

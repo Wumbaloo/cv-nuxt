@@ -3,7 +3,7 @@
     <v-row class="fill-height" justify="space-between">
       <v-col cols="12" md="6" class="pa-10 my-5">
         <h3 class="section-title primary--text font-weight-bold pb-5">{{ $t("who_i_am") }}</h3>
-        <p :class="$vuetify.breakpoint.mdAndUp ? 'px-10' : ''" style="text-align: justify; white-space: pre-wrap;">{{ $t("who_i_am_desc") }}</p>
+        <p :class="$vuetify.breakpoint.mdAndUp ? 'px-10' : ''" style="text-align: justify; white-space: pre-wrap;" v-html="$t('who_i_am_desc')"></p>
       </v-col>
       <v-col
         align="center"
@@ -11,11 +11,11 @@
         v-if="$vuetify.breakpoint.smAndDown">
         <v-col cols="12" class="pb-0 ma-0">
           <span class="text-uppercase primary--text font-weight-medium">{{ $t('location') }}</span>
-          <p>Lille, FRANCE</p>
+          <p>Douai (Lille), FRANCE</p>
         </v-col>
         <v-col cols="12" class="ma-0">
           <span class="text-uppercase primary--text font-weight-medium">Email</span>
-          <p><a href="mailto:william.gaudfrin@epitech.eu">william.gaudfrin@epitech.eu</a></p>
+          <p><a href="mailto:william.gaudfrin@epitech.eu">william.gaudfrin@outlook.fr</a></p>
         </v-col>
       </v-col>
       <v-row align="center" v-else>
@@ -23,12 +23,12 @@
           cols="4"
           md="2"
           class="pa-10 ma-5 text-uppercase primary--text font-weight-medium">
-          <p>Location</p>
+          <p class="text-uppercase primary--text font-weight-medium">{{ $t('location') }}</p>
           <a>Email</a>
         </v-col>
         <v-col cols="4" md="4" class="pa-10 ma-5">
-          <p>Lille, FRANCE</p>
-          <a href="mailto:william.gaudfrin@epitech.eu">william.gaudfrin@epitech.eu</a>
+          <p>Douai (Lille), FRANCE</p>
+          <a href="mailto:william.gaudfrin@epitech.eu">william.gaudfrin@outlook.fr</a>
         </v-col>
       </v-row>
       <v-col cols="12" md="6" class="px-10 mx-0">

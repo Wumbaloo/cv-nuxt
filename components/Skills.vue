@@ -1,6 +1,9 @@
 <template>
   <v-container pa-10>
     <h3 class="section-title primary--text font-weight-bold pb-5">{{ $t('skills_title') }}</h3>
+    <v-row>
+      <v-col cols="12" class="subtitle-1" style="text-align: center" v-html="$t('skills_description')"></v-col>
+    </v-row>
     <v-layout wrap align-center>
       <v-layout wrap align-center v-for="(category, i) in $t('skills')" :key="i">
         <v-layout column>

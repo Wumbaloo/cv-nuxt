@@ -30,7 +30,7 @@
           <v-col cols="12" md="6">
             <h3 class="primary--text pb-2" style="font-weight: normal;">{{ $t('portfolio_details') }}</h3>
             <v-chip v-show="item.freelance" color="info" class="mb-2">{{ $t('freelance_mission') }}</v-chip>
-            <div class="body-2 px-5" style="white-space: pre-wrap">{{ $t(item.desc) }}</div>
+            <div class="body-2 px-5" style="white-space: pre-wrap" v-html="$t(item.desc)"></div>
           </v-col>
           <v-col cols="12" md="6">
             <v-img :src="require('@/assets/projects/' + item.img)"></v-img>

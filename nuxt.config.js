@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors';
 const TerserPlugin = require("terser-webpack-plugin");
 
 export default {
-  mode: 'spa',
+  ssr: false,
   /*
   ** Headers of the page
   */
@@ -37,7 +37,7 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  devModules: [
+  buildModules: [
   ],
   /*
   ** Nuxt.js modules
@@ -89,7 +89,7 @@ export default {
     }
   },
   i18n: {
-    defaultLocale: "en",
+    defaultLocale: "fr",
     locales: [
       {
         code: 'en',
@@ -105,7 +105,7 @@ export default {
     lazy: true,
     langDir: 'locales/',
     vueI18n: {
-      fallbackLocale: 'en',
+      fallbackLocale: 'fr',
       silentTranslationWarn: true
     },
     detectBrowserLanguage: {

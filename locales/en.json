@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "who_i_am": "Who I am ?",
-  "who_i_am_desc": "I'm a computer science student at {EPITECH.} because I like programming, innovation and create things.\n\nI'm looking for an internship for 4 months starting 1er avril 2021.\n\nWhen I received my first computer, I wanted to know how software, video games and computers were created.\n\nCurious, I'm always looking news about robotic, programming and video games.\nMy goal is to combine work and passion.\n\nAutonomous, motivated and effective, I'm looking to join a company or work as freelance to get some experiences and learn new technologies.",
+  "who_i_am_desc": "I'm a computer science student at {EPITECH.} because I like programming, innovation and create things.\n\nI'm looking for a job (fullstack developer / mobile developer / game developer) starting <b>september 2021</b>.\n\nWhen I received my first computer, I wanted to know how software, video games and computers were created.\n\nCurious, I'm always looking news about robotic, programming and video games.\nMy goal is to combine work and passion.\n\nAutonomous, motivated and effective, I'm looking to join a company or work as freelance to get some experiences and learn new technologies.",
   "location": "Location",
   "educations_title": "Education",
   "educations": [
@@ -24,18 +24,24 @@
     }
   ],
   "passions_title": "Hobbies",
-  "passions": ["Boxing", "Motorcycle", "Computer Science", "Workout", "DIY", "Video games"],
+  "passions": ["Motorcycle", "Computer Science", "Joiner", "Mechanical", "DIY", "Video games"],
   "xp_title": "Experiences",
   "xp": [
     {
-      "company": "EPITECH",
-      "dates": "Janv. 2020 à aujourd'hui",
+      "company": "Trackap",
+      "dates": "April 2021 à Juil. 2021",
+      "job": "Fullstack developer",
+      "desc": "Développement d'applications hybrides mobile et web.<br>Réalisation d'API"
+    },
+    {
+      "company": "{EPITECH.}",
+      "dates": "Jan. 2020 à aujourd'hui",
       "job": "Pedagogical Assistant",
       "desc": "Pedagogical Assistant for the 1st and 2nd years (supervision of activities, rating of students projects, supervisory of students...)"
     },
     {
       "company": "Junior Conseil Taker",
-      "dates": "Sept. 2019 à Juin 2020",
+      "dates": "Sept. 2019 à June 2020",
       "job": "Project Manager",
       "desc": "Démarchage, gestion et accompagnement de projets auprès de différents clients."
     },
@@ -44,15 +50,10 @@
       "dates": "Aug. 2019 à Dec. 2019",
       "job": "Front-End Developer",
       "desc": "Development of a CMS thanks to Vue.js, Nuxt.js and Vuetify"
-    },
-    {
-      "company": "M-P-F",
-      "dates": "July 2018 to Sept 2018",
-      "job": "Joiner",
-      "desc": "Summer job - Joinery help"
     }
   ],
   "skills_title": "Skills",
+  "skills_description": "I have a <b>very good level</b> in theses languages/frameworks:",
   "skills": [
     { "skills": [
       { "title":  "Vue.js", "icon": "vuejs.png"},
@@ -66,12 +67,13 @@
       { "title":  "C#", "icon": "c-sharp.png"},
       { "title":  "C++", "icon": "cpp.png"},
       { "title":  "LUA", "icon": "lua.png"},
-      { "title":  "React Native", "icon": "react.png"}
+      { "title":  "React Native (basics)", "icon": "react.png"}
     ]},
     { "skills": [
       { "title":  "Unity Engine", "icon": "unity.png"},
       { "title":  "MySQL", "icon": "mysql.png"},
-      { "title":  "HTML/CSS", "icon": "html.png"},
+      { "title":  "Docker", "icon": "docker.png"},
+      { "title":  "ORM", "icon": "orm.png"},
       { "title":  "Unix", "icon": "unix.png"},
       { "title":  "TOEIC equivalent: 805", "icon": "toeic.png"}
     ]}
@@ -83,6 +85,10 @@
   "portfolio_open_link": "Open link",
   "portfolio_close": "Close",
   "projects": [
+    { "title":  "Epi-Planner", "mission": "Contribution personnelle",
+      "link": "https://epi-planner.eu/",
+      "desc": "A platform where students can follow how their <b>scolar year is going</b> when I was <b>AER</b> at <b>{EPITECH.}</b>.",
+      "img": "epi-planner.png" },
     { "title":  "M-P-F", "mission": "Website for a joinery",
       "freelance": true,
       "link": "http://menuiserie-wasquehal.fr",

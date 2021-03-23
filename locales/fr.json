@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "who_i_am": "Qui suis-je ?",
-  "who_i_am_desc": "Étudiant en 3ème année d'informatique à {EPITECH.} Lille et {AER.} (assistant pédagogique), je poursuis ma passion en suivant un cursus dédié au développement informatique.\n\nEn recherche de stage du 1er avril 2021 pour une durée de 4 mois dans le développement web, jeu vidéo (Unity via C#) ou encore mobile (React Native / Flutter).\nJe suis ouvert à toutes opportunités intéressantes.\n\nLorsque que j'ai eu mon premier ordinateur, je me suis très vite intéressé à la façon dont les logiciels, les jeux vidéo et l'environnement informatique étaient conçus. Curieux, je m'intéresse à l'actualité concernant les dernières technologies et langages utilisés. De plus, ma curiosité m'a permis de ne pas avoir peur d'apprendre.\n\nJ'aime apporter des modifications et développer des jeux vidéo, sites web et logiciels en parallèle de mes études.\nGrand adepte d'hackathon, j'aime le challenge et le gain de compétences procuré par ces marathons de programmation.",
+  "who_i_am_desc": "Étudiant en fin de 3ème année d'informatique à {EPITECH.} Lille et {AER.} (assistant pédagogique).\n\nJe recherche un poste de développeur fullstack, développeur jeu vidéo (Unity via C#) ou encore mobile (React Native / Flutter) à partir de <b>septembre 2021</b>.\n\nLorsque que j'ai eu mon premier ordinateur, je me suis très vite intéressé à la façon dont les logiciels, les jeux vidéo et l'environnement informatique étaient conçus. Curieux, je m'intéresse à l'actualité concernant les dernières technologies et langages utilisés. De plus, ma curiosité me permet de ne pas avoir peur d'apprendre.\n\nJ'aime apporter des modifications et développer des jeux vidéo, sites web et logiciels en parallèle de mes études.\nGrand adepte d'hackathon, j'aime le challenge et le gain de compétences procuré par ces marathons de programmation.",
   "location": "Localisation",
   "educations_title": "Education",
   "educations": [
@@ -24,35 +24,36 @@
     }
   ],
   "passions_title": "Passions",
-  "passions": ["Boxe anglaise", "Moto", "Informatique", "Bricolage", "Jeux vidéo"],
+  "passions": ["Moto", "Informatique", "Bricolage", "Menuiserie", "Mécanique", "Hackathons","Jeux vidéo"],
   "xp_title": "Expériences",
   "xp": [
     {
-      "company": "EPITECH",
-      "dates": "Janv. 2020 à aujourd'hui",
+      "company": "Trackap",
+      "dates": "Avril 2021 à Juil. 2021",
+      "job": "Développeur fullstack",
+      "desc": "Développement d'applications hybrides <b>mobile et web</b>.<br>Réalisation d'<b>API</b>"
+    },
+    {
+      "company": "{EPITECH.}",
+      "dates": "Janv. 2020 à Avril 2021",
       "job": "Assistant pédagogique",
-      "desc": "Assistant pédagogique auprès des 1ère et 2ème années (encadrement des activités, notation des projets étudiants, encadrement de ceux-ci...)"
+      "desc": "Assistant pédagogique auprès des 1ère et 2ème années<br><ul><li>Encadrement des étudiants et des activités</li><li>Notation des projets étudiants</li><li>Développement d’un <b>outil de suivi de scolarité</b> pour les étudiants</li></ul>"
     },
     {
       "company": "Junior Conseil Taker",
       "dates": "Sept. 2019 à Juin 2020",
       "job": "Chef de projet",
-      "desc": "Démarchage, gestion et accompagnement de projets auprès de différents clients."
+      "desc": "Démarchage, gestion et accompagnement de projets auprès de différents <b>clients</b>."
     },
     {
       "company": "CAUE du Nord",
       "dates": "Août 2019 à Déc. 2019",
       "job": "Développeur Front-End",
-      "desc": "Réalisation d'un CMS avec Vue.js, Nuxt.js et Vuetify"
-    },
-    {
-      "company": "M-P-F",
-      "dates": "Juill. 2018 à Sept. 2018",
-      "job": "Menuisier",
-      "desc": "Job d'été - Aide à la menuiserie"
+      "desc": "Réalisation d'un CMS via <b>Vue.js, Nuxt.js</b> et <b>Vuetify</b>"
     }
   ],
   "skills_title": "Compétences",
+  "skills_description": "Je <b>maîtrise</b> toutes les compétences ci-dessous :",
   "skills": [
     { "skills": [
       { "title":  "Vue.js", "icon": "vuejs.png"},
@@ -66,12 +67,13 @@
       { "title":  "C#", "icon": "c-sharp.png"},
       { "title":  "C++", "icon": "cpp.png"},
       { "title":  "LUA", "icon": "lua.png"},
-      { "title":  "React Native", "icon": "react.png"}
+      { "title":  "React Native (bases)", "icon": "react.png"}
     ]},
     { "skills": [
       { "title":  "Unity Engine", "icon": "unity.png"},
       { "title":  "MySQL", "icon": "mysql.png"},
-      { "title":  "HTML/CSS", "icon": "html.png"},
+      { "title":  "Docker", "icon": "docker.png"},
+      { "title":  "ORM", "icon": "orm.png"},
       { "title":  "Unix", "icon": "unix.png"},
       { "title":  "Équivalent TOEIC: 805", "icon": "toeic.png"}
     ]}
@@ -83,16 +85,19 @@
   "portfolio_open_link": "Ouvrir le lien",
   "portfolio_close": "Fermer",
   "projects": [
+    { "title":  "Epi-Planner", "mission": "Contribution personnelle",
+      "link": "https://epi-planner.eu/",
+      "desc": "Développement d’une plateforme de <b>suivi de scolarité</b> pour les étudiants lors de mon <b>stage</b> en tant qu'assistant pédagogique à <b>{EPITECH.}</b>.",
+      "img": "epi-planner.png" },
     { "title":  "M-P-F", "mission": "Site vitrine",
       "freelance": true,
-      "link": "http://menuiserie-wasquehal.fr",
       "desc": "Un site vitrine pour une menuiserie en utilisant Bootstrap, Javascript et HTML/CSS.",
       "img": "mpf.png" },
     { "title":  "Dashboard", "mission": "Epitech project",
       "desc": "Réalisation d'un tableau de bord avec un système de services proposant des widgets (JavaScript / Materialize avec une API Flask).",
       "img": "project.png" },
     { "title":  "AREA", "mission": "Epitech project",
-      "desc": "Réalisation d'une API (en Node.js), d'une application mobile (en React.js) et d'une web application (en Vue.js) avec pour objectif une liste d'actions entraînant de réactions en fonction des préférences de l'utilisateur.",
+      "desc": "Réalisation d'une API (en Node.js), d'une application mobile (en React.js) et d'une web application (en Vue.js) avec pour objectif une liste d'actions entraînant de réactions en fonction des préférences de l'utilisateur. Semblable à IFTTT",
       "img": "project.png" },
     { "title":  "Dirty City", "mission": "Personal project",
       "link": "https://www.youtube.com/watch?v=GLxLEDwtviI",
@@ -111,9 +116,6 @@
     { "title":  "Portfolio", "mission": "Personal website",
       "desc": "Le site web que vous visitez actuellement en utilisant NuxtJS, VueJS et Vuetify.",
       "img": "cv.png" },
-    { "title":  "Portfolio", "mission": "Personal website",
-      "desc": "Mon ancien portfolio qui a été réalisé avec Bootstrap, Javascript et HTML/CSS.",
-      "img": "cv.png" },
     { "title":  "Flappy Bird", "mission": "Personal project",
       "desc": "Réplique du jeu 'Flappy Bird' en CSFML (en C) réalisé en 1 jour.\nJe voulais me donner le challenge de réaliser une réplique en une après-midi.\nLa hauteur entre les tuyaux est aléatoire, la map est modifiable et se répète à l'infinie.",
       "img": "flappy_bird.png" },
@@ -121,7 +123,7 @@
       "desc": "Réplique du jeu 'Dunk Hunt' en CSFML (en C) réalisé en 21 jours.\nNous étions libres sur le style graphique.\nNous devions juste implémenter un sprite qui bouge, un score et des collisions notamment lorsque l'utilisateur tire sur un monstre.",
       "img": "my_hunter.png" },
     { "title":  "My Runner", "mission": "Epitech project",
-      "desc": "Un jeu vidéo du style 'Runner Game' en CSFML (en C) réalisé en 42 days.\nNous étions libres sur le style graphique.\nNous devions juste implémenter un sprite qui bouge, un score, des collisions et gérer une map extérieure. (un fichier texte qui représente la map)",
+      "desc": "Un jeu vidéo du style 'Runner Game' en CSFML (en C) réalisé en 42 jours.\nNous étions libres sur le style graphique.\nNous devions juste implémenter un sprite qui bouge, un score, des collisions et gérer une map extérieure. (un fichier texte qui représente la map)",
       "img": "my_runner.png" },
     { "title":  "42sh", "mission": "Epitech project",
       "desc": "Le but de ce projet est de refaire 'Tcsh', un shell Linux.\nNous devions gérer toutes les commandes basiques, d'environnement, pipes, redirections, historiques...",
