@@ -33,11 +33,11 @@
   }
   .subtext {
     font-size: 3rem;
-    line-height: 56px;
+    line-height: 54px;
     font-weight: 300;
   }
 
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 600px) {
     .subtext {
       font-size: 12vw;
     }

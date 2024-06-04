@@ -4,13 +4,13 @@
     <v-row :class="$vuetify.breakpoint.mdAndUp ? 'pl-5' : ''" align="center" justify="center">
       <v-col cols="12" md="6" align="center" justify="center">
         <h3>Email</h3>
-        <p>contact@william-gaudfrin.com</p>
-        <v-btn x-large color="green" href="mailto:contact@william-gaudfrin.com">{{ $t('contact_email') }}</v-btn>
+        <p>william.gaudfrin@outlook.com</p>
+        <v-btn x-large color="green" href="mailto:william.gaudfrin@outlook.com">{{ $t('contact_email') }}</v-btn>
       </v-col>
       <v-row justify="center">
         <v-col cols="12" md="6" align-content="center" align="center" class="pb-10" style="text-align: center">
           <SocialMedias class="mb-4"></SocialMedias>
-          <v-btn color="info" href="https://william-gaudfrin.com/cv.pdf">{{ $t('cv_download') }}</v-btn>
+          <v-btn color="info" href="/cv.pdf">{{ $t('cv_download') }}</v-btn>
         </v-col>
       </v-row>
     </v-row>
@@ -33,7 +33,7 @@
     },
     methods: {
       submit_mail() {
-        window.open("mailto:contact@william-gaudfrin.com?subject=" + this.subject + "&body=" + this.body.replace(/\n/g, '%0D%0A'));
+        window.open("mailto:william.gaudfrin@outlook.com?subject=" + this.subject + "&body=" + this.body.replace(/\n/g, '%0D%0A'));
       }
     }
   }

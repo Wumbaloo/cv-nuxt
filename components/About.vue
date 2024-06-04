@@ -11,7 +11,7 @@
         v-if="$vuetify.breakpoint.smAndDown">
         <v-col cols="12" class="pb-0 ma-0">
           <span class="text-uppercase primary--text font-weight-medium">{{ $t('location') }}</span>
-          <p>Douai (Lille), FRANCE</p>
+          <p>Lille, FRANCE</p>
         </v-col>
         <v-col cols="12" class="ma-0">
           <span class="text-uppercase primary--text font-weight-medium">Email</span>
@@ -27,7 +27,7 @@
           <a>Email</a>
         </v-col>
         <v-col cols="4" md="4" class="pa-10 ma-5">
-          <p>Douai (Lille), FRANCE</p>
+          <p>Lille, FRANCE</p>
           <a href="mailto:william.gaudfrin@epitech.eu">william.gaudfrin@outlook.fr</a>
         </v-col>
       </v-row>

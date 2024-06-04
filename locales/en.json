@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "who_i_am": "Who I am ?",
-  "who_i_am_desc": "I'm a computer science student at {EPITECH.} because I like programming, innovation and create things.\n\nI'm looking for a job (fullstack developer / mobile developer / game developer) starting <b>september 2021</b>.\n\nWhen I received my first computer, I wanted to know how software, video games and computers were created.\n\nCurious, I'm always looking news about robotic, programming and video games.\nMy goal is to combine work and passion.\n\nAutonomous, motivated and effective, I'm looking to join a company or work as freelance to get some experiences and learn new technologies.",
+  "who_i_am_desc": "Fullstack developer at Décathlon for SOGETI. Graduate {EPITECH.} Lille and former {AER.} (teaching assistant).\n\nPassionate about computer development and embedded electronics, I tinker with everything I can find to make the most of my passions.\n\nWhen I received my first computer, I wanted to know how software, video games and computers were created.\n\nCurious, I'm always looking news about robotic, programming and video games.\nMy goal is to combine work and passion.\n\nAutonomous, motivated and effective, I'm looking to join a company or work as freelance to get some experiences and learn new technologies.",
   "location": "Location",
   "educations_title": "Education",
   "educations": [
@@ -28,26 +28,32 @@
   "xp_title": "Experiences",
   "xp": [
     {
+      "company": "Décathlon",
+      "dates": "Sept 2023 to Today",
+      "job": "Fullstack Tech Lead",
+      "desc": "Building and implementing a supplier management application <b>Next</b>, <b>React</b> and <b>PostgreSQL</b>.<br /><ul><li>Analysis and development of shared applications, APIs and libraries.</li><li>Deployment automation via <b>GitHub Actions</b>, <b>Kubernetes</b>, <b>Docker</b> and <b>AWS ECR</b></li><li>Usage of <b>AWS Athena, S3, ECR, EC2</b>.</li></ul>"
+    },
+    {
       "company": "Trackap",
-      "dates": "April 2021 à Juil. 2021",
-      "job": "Fullstack developer",
-      "desc": "Développement d'applications hybrides mobile et web.<br>Réalisation d'API"
+      "dates": "April 2021 to Sept 2023",
+      "job": "Fullstack Tech Lead",
+      "desc": "Hybrid application development <b>mobile, web and API</b> with <b>MERN</b>.<ul><li><b>API</b> realiaztions</li><li>Deployment automation via <b>GitLab CI/CD</b> and <b>Docker</b>.</li><li>Project management <i>(drafting and setting up specifications and assignments)</i> and customer meetings</li><li>Embedded development via <b>BLE</b> and <b>MQTT</b>.</li>"
     },
     {
       "company": "{EPITECH.}",
-      "dates": "Jan. 2020 à aujourd'hui",
+      "dates": "Jan. 2020 to April 2021",
       "job": "Pedagogical Assistant",
       "desc": "Pedagogical Assistant for the 1st and 2nd years (supervision of activities, rating of students projects, supervisory of students...)"
     },
     {
       "company": "Junior Conseil Taker",
-      "dates": "Sept. 2019 à June 2020",
+      "dates": "Sept. 2019 to June 2020",
       "job": "Project Manager",
-      "desc": "Démarchage, gestion et accompagnement de projets auprès de différents clients."
+      "desc": "Canvassing, project management and support for various customers."
     },
     {
       "company": "CAUE du Nord",
-      "dates": "Aug. 2019 à Dec. 2019",
+      "dates": "Aug. 2019 to Dec. 2019",
       "job": "Front-End Developer",
       "desc": "Development of a CMS thanks to Vue.js, Nuxt.js and Vuetify"
     }
@@ -56,26 +62,29 @@
   "skills_description": "I have a <b>very good level</b> in theses languages/frameworks:",
   "skills": [
     { "skills": [
+      { "title":  "React.js", "icon": "react.png"},
       { "title":  "Vue.js", "icon": "vuejs.png"},
       { "title":  "Node.js", "icon": "nodejs.png"},
-      { "title":  "Express.js", "icon": "javascript.png"},
-      { "title":  "JavaScript", "icon": "javascript.png"},
-      { "title":  "jQuery", "icon": "jquery.png"}
+      { "title":  "Express.js", "icon": "expressjs.png"},
+      { "title":  "Next.js", "icon": "javascript.png"},
+      { "title":  "TypeScript", "icon": "typescript.png"}
     ]},
     { "skills": [
       { "title":  "C", "icon": "c.png"},
       { "title":  "C#", "icon": "c-sharp.png"},
       { "title":  "C++", "icon": "cpp.png"},
-      { "title":  "LUA", "icon": "lua.png"},
-      { "title":  "React Native (basics)", "icon": "react.png"}
+      { "title":  "Arduino", "icon": "arduino.png"},
+      { "title":  "React Native", "icon": "react.png"},
+      { "title":  "Flutter", "icon": "flutter.png"}
     ]},
     { "skills": [
       { "title":  "Unity Engine", "icon": "unity.png"},
-      { "title":  "MySQL", "icon": "mysql.png"},
+      { "title":  "MongoDB", "icon": "mongodb.png"},
+      { "title":  "PostgreSQL", "icon": "postgresql.png"},
       { "title":  "Docker", "icon": "docker.png"},
-      { "title":  "ORM", "icon": "orm.png"},
+      { "title":  "Kubernetes", "icon": "kubernetes.png"},
       { "title":  "Unix", "icon": "unix.png"},
-      { "title":  "TOEIC equivalent: 805", "icon": "toeic.png"}
+      { "title":  "TOEIC: 805", "icon": "toeic.png"}
     ]}
   ],
   "freelance_mission": "Freelance mission",

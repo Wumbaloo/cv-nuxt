@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "who_i_am": "Qui suis-je ?",
-  "who_i_am_desc": "Étudiant en fin de 3ème année d'informatique à {EPITECH.} Lille et {AER.} (assistant pédagogique).\n\nJe recherche un poste de développeur fullstack, développeur jeu vidéo (Unity via C#) ou encore mobile (React Native / Flutter) à partir de <b>septembre 2021</b>.\n\nLorsque que j'ai eu mon premier ordinateur, je me suis très vite intéressé à la façon dont les logiciels, les jeux vidéo et l'environnement informatique étaient conçus. Curieux, je m'intéresse à l'actualité concernant les dernières technologies et langages utilisés. De plus, ma curiosité me permet de ne pas avoir peur d'apprendre.\n\nJ'aime apporter des modifications et développer des jeux vidéo, sites web et logiciels en parallèle de mes études.\nGrand adepte d'hackathon, j'aime le challenge et le gain de compétences procuré par ces marathons de programmation.",
+  "who_i_am_desc": "Développer fullstack chez Décathlon pour SOGETI. Diplômé {EPITECH.} Lille et ancien {AER.} (assistant pédagogique).\n\nPassionné de développement informatique et d'électronique embarqué, je bidouille tout ce que je trouve pour tirer le meilleur de mes passions.\n\nLorsque que j'ai eu mon premier ordinateur, je me suis très vite intéressé à la façon dont les logiciels, les jeux vidéo et l'environnement informatique étaient conçus. Curieux, je m'intéresse à l'actualité concernant les dernières technologies et langages utilisés. De plus, ma curiosité me permet de ne pas avoir peur d'apprendre.\n\nJ'aime apporter des modifications et développer des jeux vidéo, sites web et logiciels en parallèle de mon travail.\nGrand adepte d'hackathon, j'aime le challenge et le gain de compétences procuré par ces marathons de programmation.",
   "location": "Localisation",
   "educations_title": "Education",
   "educations": [
@@ -24,20 +24,26 @@
     }
   ],
   "passions_title": "Passions",
-  "passions": ["Moto", "Informatique", "Bricolage", "Menuiserie", "Mécanique", "Hackathons","Jeux vidéo"],
+  "passions": ["Moto", "Informatique", "DIY", "Crossfit", "Mécanique", "Hackathons", "Jeux vidéo"],
   "xp_title": "Expériences",
   "xp": [
     {
+      "company": "Décathlon",
+      "dates": "Septembre 2023 à aujourd'hui",
+      "job": "Fullstack Tech Lead",
+      "desc": "Construction et mise en place d'une application de gestion de fournisseurs en <b>Next</b>, <b>React</b> et <b>PostgreSQL</b>.<br /><ul><li>Analyse et développement d'une application, d'API et de librairies partagées.</li><li>Automatisation de déploiements via <b>GitHub Actions</b>, <b>Kubernetes</b>, <b>Docker</b> et <b>AWS ECR</b></li><li>Utilisation d'<b>AWS Athena, S3, ECR, EC2</b>.</li></ul>"
+    },
+    {
       "company": "Trackap",
-      "dates": "Avril 2021 à Juil. 2021",
-      "job": "Développeur fullstack",
-      "desc": "Développement d'applications hybrides <b>mobile et web</b>.<br>Réalisation d'<b>API</b>"
+      "dates": "Avril 2021 à Septembre 2023",
+      "job": "Fullstack Tech Lead",
+      "desc": "Développement d'applications hybrides <b>mobile, web et API</b> en <b>MERN</b>.<ul><li>Réalisations d'<b>API</b></li><li>Automatisation de déploiements via <b>GitLab CI/CD</b> et <b>Docker</b>.</li><li>Gestion de projets <i>(rédaction, mise en place des cahiers des charges et assignations)</i> et rendez-vous clients</li><li>Développement embarqué via <b>BLE</b> et <b>MQTT</b>.</li>"
     },
     {
       "company": "{EPITECH.}",
       "dates": "Janv. 2020 à Avril 2021",
       "job": "Assistant pédagogique",
-      "desc": "Assistant pédagogique auprès des 1ère et 2ème années<br><ul><li>Encadrement des étudiants et des activités</li><li>Notation des projets étudiants</li><li>Développement d’un <b>outil de suivi de scolarité</b> pour les étudiants</li></ul>"
+      "desc": "Assistant pédagogique auprès des 1ère et 2ème années<br><ul><li>Encadrement des étudiants et des activités</li><li>Notation des projets étudiants</li><li>Développement d'<b>EpiPlanner</b>, <b>outil de suivi de scolarité</b> pour les étudiants</li></ul>"
     },
     {
       "company": "Junior Conseil Taker",
@@ -56,26 +62,29 @@
   "skills_description": "Je <b>maîtrise</b> toutes les compétences ci-dessous :",
   "skills": [
     { "skills": [
+      { "title":  "React.js", "icon": "react.png"},
       { "title":  "Vue.js", "icon": "vuejs.png"},
       { "title":  "Node.js", "icon": "nodejs.png"},
-      { "title":  "Express.js", "icon": "javascript.png"},
-      { "title":  "JavaScript", "icon": "javascript.png"},
-      { "title":  "jQuery", "icon": "jquery.png"}
+      { "title":  "Express.js", "icon": "expressjs.png"},
+      { "title":  "Next.js", "icon": "javascript.png"},
+      { "title":  "TypeScript", "icon": "typescript.png"}
     ]},
     { "skills": [
       { "title":  "C", "icon": "c.png"},
       { "title":  "C#", "icon": "c-sharp.png"},
       { "title":  "C++", "icon": "cpp.png"},
-      { "title":  "LUA", "icon": "lua.png"},
-      { "title":  "React Native (bases)", "icon": "react.png"}
+      { "title":  "Arduino", "icon": "arduino.png"},
+      { "title":  "React Native", "icon": "react.png"},
+      { "title":  "Flutter", "icon": "flutter.png"}
     ]},
     { "skills": [
       { "title":  "Unity Engine", "icon": "unity.png"},
-      { "title":  "MySQL", "icon": "mysql.png"},
+      { "title":  "MongoDB", "icon": "mongodb.png"},
+      { "title":  "PostgreSQL", "icon": "postgresql.png"},
       { "title":  "Docker", "icon": "docker.png"},
-      { "title":  "ORM", "icon": "orm.png"},
+      { "title":  "Kubernetes", "icon": "kubernetes.png"},
       { "title":  "Unix", "icon": "unix.png"},
-      { "title":  "Équivalent TOEIC: 805", "icon": "toeic.png"}
+      { "title":  "TOEIC: 805", "icon": "toeic.png"}
     ]}
   ],
   "freelance_mission": "Mission freelance",
@@ -87,7 +96,7 @@
   "projects": [
     { "title":  "Epi-Planner", "mission": "Contribution personnelle",
       "link": "https://epi-planner.eu/",
-      "desc": "Développement d’une plateforme de <b>suivi de scolarité</b> pour les étudiants lors de mon <b>stage</b> en tant qu'assistant pédagogique à <b>{EPITECH.}</b>.",
+      "desc": "Développement d'une plateforme de <b>suivi de scolarité</b> pour les étudiants lors de mon <b>stage</b> en tant qu'assistant pédagogique à <b>{EPITECH.}</b>.",
       "img": "epi-planner.png" },
     { "title":  "M-P-F", "mission": "Site vitrine",
       "freelance": true,
